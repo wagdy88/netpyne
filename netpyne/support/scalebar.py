@@ -14,9 +14,10 @@ from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
 from future import standard_library
+from netpyne import __gui__
 
 standard_library.install_aliases()
-from netpyne import __gui__
+
 
 if __gui__:
     from matplotlib.offsetbox import AnchoredOffsetbox
